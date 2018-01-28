@@ -20,18 +20,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lv517 device
 $(call inherit-product, device/lge/lv517/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Validus stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := lge
 PRODUCT_DEVICE := lv517
-PRODUCT_NAME := lineage_lv517
+PRODUCT_NAME := validus_lv517
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG K20 Plus
 PRODUCT_MANUFACTURER := lge
 
-# Overlays (inherit after vendor/cm to ensure we override it)
+# Overlays (inherit after vendor/validus to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_GMS_CLIENTID_BASE := android-lge
