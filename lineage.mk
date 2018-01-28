@@ -37,5 +37,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="T-Mobile/lv517_tmo_us/lv517:7.1.2/NRD90U/171071514d722:user/release-keys" \
-    PRIVATE_BUILD_DESC="lv517_tmo_us-user 7.1.2 NRD90U 171071514d722 release-keys"
+    BUILD_FINGERPRINT=MetroPCS/lv517_mpcs_us/lv517:7.0/NRD90U/17075180090e7:user/release-keys \
+    PRIVATE_BUILD_DESC="lv517_mpcs_us-user 7.0 NRD90U 17075180090e7 release-keys"
